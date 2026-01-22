@@ -1,0 +1,48 @@
+{
+  "name": "n8n-nodes-language-detect",
+  "version": "0.1.0",
+  "description": "n8n node to detect text language using franc-min",
+  "keywords": [
+    "n8n-community-node-package",
+    "n8n",
+    "language",
+    "detect",
+    "franc"
+  ],
+  "license": "MIT",
+  "author": {
+    "name": "yambal"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yambal/n8n-nodes-language-detect.git"
+  },
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "lint": "eslint src --ext .ts",
+    "prepublishOnly": "npm run build"
+  },
+  "files": [
+    "dist"
+  ],
+  "n8n": {
+    "n8nNodesApiVersion": 1,
+    "nodes": [
+      "dist/nodes/LanguageDetect/LanguageDetect.node.js"
+    ]
+  },
+  "dependencies": {
+    "franc-min": "^6.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.21",
+    "n8n-workflow": "^1.77.1",
+    "typescript": "^5.7.3"
+  },
+  "peerDependencies": {
+    "n8n-workflow": "*"
+  }
+}
