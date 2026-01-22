@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-  <circle cx="12" cy="12" r="10"/>
-  <line x1="2" y1="12" x2="22" y2="12"/>
-  <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
-  <text x="12" y="16" text-anchor="middle" font-size="8" font-weight="bold" fill="currentColor" stroke="none">A</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 60" width="60" height="60">
+  <rect width="60" height="60" rx="8" fill="#4A90D9"/>
+  <text x="10" y="28" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="white">A</text>
+  <text x="30" y="45" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="white">あ</text>
+  <path d="M35 18 L45 18 M40 13 L40 23 M42 20 Q48 26 42 32" stroke="white" stroke-width="2" fill="none" stroke-linecap="round"/>
 </svg>
